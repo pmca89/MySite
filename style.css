@@ -1,0 +1,393 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #0c2626;
+}
+
+html{
+	height: 100%; 
+	width: 100%;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+h1, h2, h3{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #09cdf0;
+}
+
+h1 { font-size: 44px; }
+
+h2 { font-size: 18px; }
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 100%;
+	text-align: justify;
+}
+blockquote { }
+
+a { 
+	color: #0000A0 ;
+	font-weight: bold ; 
+ }
+ 
+a.headSideBar{
+	color: white ;
+}
+a.welcome{
+	color: #078AA1 ;
+}
+a:hover { text-decoration: none; }
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 7px 30px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 7px 0 0 30px;
+}
+
+hr { display: none; }
+
+.list1 {
+}
+
+.list1 li {
+	float: left;
+	line-height: normal;
+}
+
+.list1 li img {
+	margin: 0 30px 30px 0;
+}
+
+.list1 li.alt img {
+	margin-right: 0;
+}
+
+/* headerArea */
+
+#headerArea{
+	width: 100%;
+	height: 20%; 
+	position: relative;
+	overflow: hidden;
+	font-size: 100%;
+}
+
+/* logo */
+
+/* siteTitle */
+
+#siteTitle{
+	width: 100%;
+	height: 70%;
+}
+
+#logo{
+	width: 100% ;
+	height: 70%;
+	position: relative;
+	float: left;
+	background: url(images/headerBar.png) no-repeat right top;
+	background-size: 100% 100%;
+}
+
+#logo h1{
+	line-height: normal;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+#logo #siteTitle a{
+	text-decoration: none;
+	color: #09cdf0;
+}
+/* End logo */
+
+#logo #sectionTitle h2{
+	text-transform: lowercase;
+	margin-left: 2%;
+}
+/* sectionTitle */ 
+
+
+
+/* End sectionTitle */
+/* End siteTitle */ 
+
+/* siteNavMenuArea */
+
+#siteNavMenuArea{
+	width: 100%;
+	height: 30%;
+	position: relative;
+	float: left;
+}
+
+/* siteNavMenu */
+
+#siteNavMenu{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+#siteNavMenu ul{
+	list-style: none;
+	line-height: normal;
+	height: 100%;
+	background-color: #000000;
+}
+
+#siteNavMenu li{
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+#siteNavMenu a{
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 2% 2% 2% 2%;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #fff;
+}
+
+#siteNavMenu a:hover{ text-decoration: underline; }
+
+/* End siteNavMenu */
+/* End navMenuArea */
+/* End headerArea */
+
+/* Page */
+#thePage{
+	width: 100%;
+	position: relative;
+	height: 100%;
+}
+
+#page {
+	width: 920px;
+	margin: 0 auto;
+}
+
+/* Content */
+#contentArea{
+	width: 100%; 
+	height: 70%;
+	position: relative;
+	float: left;
+	clear: both;
+	overflow: hidden;
+}
+
+/* contentNavBar */
+#contentNavBar{
+	background-image:url('images/NavBar.png');
+	width: 15%;
+	height: 100%;
+	position: relative;
+	float: left;
+	background-size: 100% 100%;
+}
+
+#contentNavBar ul li{
+	margin-top: 5%;
+	list-style: none;
+}
+
+#contentNavBar ul li a{
+	text-decoration: none;
+	color: white;
+}
+#contentNavBar ul li a:hover{
+	text-decoration: underline;
+}
+
+#contentNavBar ul li ul{
+	margin-left: -15%;
+	margin-right: 5%;
+}
+#contentNavBar ul li ul li{
+	margin-right: 10%;
+}
+
+/* End contentNavBar */
+
+#content{
+	float: left;
+	position: relative;
+	width: 70%;
+	height: 100%;
+	background-image:url('/images/pagerLowRes.jpg');
+	overflow: scroll;
+}
+#content .aboutMe{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#content .aboutMe h3{
+	text-decoration: underline;
+}
+/* End Content */
+
+/* Posts */
+
+#content .post{
+	margin: 2%;
+}
+ 
+.post .postHeader h3 a{
+		text-decoration: none;
+		color: #5bcef0;
+}
+
+.post .postHeader h3 a:hover{
+	text-decoration: underline;
+}
+
+/* End Posts */
+/* End Content */
+
+/*Resume Style */ 
+div.resume{
+	
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	overflow-x: hidden; 
+	background-image:url('images/paper.jpg');
+	background-attachment: local;
+	background-size: 100%;
+}
+.resumeText{
+	height: 100%;
+	background-color: transparent;
+	margin: 10%;
+}
+
+/*End Resume Style */
+
+/* Right Side Bar */
+
+#rightSideBar {
+	float: right;
+	width: 177px;
+	padding-left: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;
+	background:#a7c4cb;
+}
+#rightSideBar ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#rightSideBar li {
+	margin-bottom: 30px;
+	padding: 0 10px 10px 0px;
+}
+
+#rightSideBar li ul {
+}
+
+#rightSideBar li li {
+	margin: 0;
+	padding: 7px 10px 10px 7px;
+	background: url(images/img07.jpg) repeat-x left bottom;
+}
+
+#rightSideBar p {
+	margin: 0;
+	padding: 0px 10px;
+}
+
+#rightSideBar h2 {
+	height: 26px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 0px 10px;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: normal;
+	color: #fff;
+	background: #276f80;
+	
+}
+
+#rightSideBar p {
+	line-height: 200%;
+}
+#rightSideBar a {
+	text-align: left;
+	text-decoration: none;
+	font-weight: normal;
+	color: #fff;
+}
+
+/* End Right Side Bar */
+
+
+/* Footer */
+#footerArea{
+	height: 10%;
+	width: 100%;
+	float: left;
+}
+
+#footer{
+	width: 50%;
+	height: 100%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+}
+
+#footer-bgcontent{
+	width: 100%;
+	height: 100%;
+	background-image: url('images/footerBar.png');
+	background-size: 100% 100%;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #fff;
+}
+
+#footer a {
+	color: #fff;
+}
